@@ -78,12 +78,7 @@ WSGI_APPLICATION = 'firstproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'toraq_staging',
-        'USER':'silo',
-        'PASSWORD':'AJMlQ3nw0zAawEPwvjjwAz',
-        'HOST':'toraq-staging.cluster-chqhep6ovkvr.ap-southeast-1.rds.amazonaws.com',
-        'PORT':3306
+        
 
     }
 }
